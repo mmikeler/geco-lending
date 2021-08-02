@@ -4940,7 +4940,7 @@ h1,h2,h3,h4,h5{
 	text-transform: uppercase !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 990px){
 	#sticky-header .footer-social{
 		margin-left: 0;
 		margin-right: 50px;
