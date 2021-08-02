@@ -67,7 +67,7 @@
 	left: auto;
 }
 .slider-bg {
-	padding: 180px 0;
+	padding: 280px 0 180px 0;
 }
 .slider-style-two {
 	padding: 250px 0 150px;
@@ -493,7 +493,7 @@
 	left: auto;
 }
 .slider-bg {
-	padding: 180px 0;
+	padding: 270px 0 180px 0;
 }
 .navbar-wrap ul li a {
 	font-size: 12px;
@@ -529,7 +529,7 @@
 	margin: 0 15px;
 }
 .coming-match-team {
-	padding: 25px 15px 30px;
+	padding: 0;
 	flex-wrap: wrap;
 }
 .coming-match-info {
@@ -859,7 +859,7 @@ form.third-contact-form {
 	left: auto;
 }
 .slider-bg {
-	padding: 120px 0;
+	padding: 210px 0 120px 0;
 }
 .section-title h2 {
 	font-size: 36px;

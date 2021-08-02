@@ -4906,10 +4906,11 @@ footer .footer-social ul{
 }
 
 /* MY STYLE */
-.coming-match-team,
-.featured-game-thumb,
-.coming-match-team{
-	border: 2px solid #e4a101;
+.coming-match-item{
+	border-top: 5px solid #e4a101;
+}
+.featured-game-thumb{
+	padding: 20px;
 }
 
 #home{
@@ -4925,9 +4926,25 @@ footer .footer-social ul{
 	align-items: center;
 	justify-content: center;
 }
+#home .bg-video-wrapper:after{
+	content: '';
+	background-image: url('../img/bg/game_manage_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: .8;
+}
 #home .bg-video-wrapper video{
 	height: 100%;
 	width: auto;
+}
+h1,h2,h3,h4,h5{
+	text-transform: uppercase !important;
 }
 
 @media (max-width: 768px){
